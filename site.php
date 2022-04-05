@@ -12,6 +12,14 @@
 <body>
 
      <title>Formulario</title>
+
+     <form action="index.php" method="post">
+           <input type="text" name="name1">
+           <label> Digite aqui seu nome</label>
+
+
+           <button type="bt-send">Enviar</button>
+     </form>
 <?php
       include("index.php");
 ?>
